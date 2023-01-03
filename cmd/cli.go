@@ -1,4 +1,4 @@
-package main
+package cmd
 
 import (
 	"github.com/haoziqaq/image-processor/internal/actions"
@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-func setupApp() {
+func SetupCli() {
 	app := &cli.App{
 		Commands: []*cli.Command{
 			{
